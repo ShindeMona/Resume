@@ -1,0 +1,37 @@
+ 
+		*{
+                    box-sizing:border-box;
+                 }
+
+                .column{
+                	 float:left;
+                	 padding:10px;
+                 	height:1500px;
+                  }
+                .row1{
+                	float:left;
+                 	margin:-10px;
+              		padding:0; 
+                 	width:110%;
+                 	height:70px;
+                  }
+                 .first,.four{
+                  	width:10%;
+                  }
+                  .second{
+                  	width:25%;
+                  }
+                 .third{
+                  	width:55%;
+                  }
+                .row:after{
+                	 content:"";
+             		 display:table;
+                 	 clear:both;
+                 }
+                /*div{
+                  border-style:solid;
+                  border-color:black;
+                }*/
+                                                                                                                     6,26           5%
+
